@@ -1,0 +1,103 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rimouski";
+    color:white;
+}
+
+body{
+    background: linear-gradient(to right, rgb(39, 66, 93), rgb(23, 130, 238));
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    
+
+}
+
+.searchForCity{
+    position: absolute;
+    top:3rem;
+    line-height: 2.5rem;
+    font-size: 1.5rem;
+    text-align: center;
+    color:rgb(78, 78, 78);
+    width:60%;
+}
+
+.main-container{
+    width: 50vw;
+    height:65vh;
+   
+    border-collapse: separate;
+    
+    
+  
+   
+}
+
+
+.weather-container{
+    background:none;
+    padding:10%;
+    
+
+   
+}
+
+div img{
+   display: block;
+   margin: 0 auto;
+   counter-reset: white;
+}
+
+
+.app-title{
+    height:15%;
+    background:none;
+    font-size: 2.0rem;
+    color:rgb(78, 78, 78);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    border-top-left-radius: 2rem; 
+    border-top-right-radius: 2rem; 
+}
+
+.location{
+    background-color:none;
+    height: 15%;
+    width: 100%;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+
+.temperature p{
+    margin-top: 1.5rem;;
+    font-size: 4rem;
+    text-align: center;
+    
+}
+
+.weather-description{
+    font-size: 2rem;
+ 
+    margin-top:1.3 rem;
+    text-align:center;
+}
+
+.location{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.location p{
+    font-size:2.5rem;
+    
+}
